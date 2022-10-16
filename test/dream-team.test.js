@@ -31,6 +31,8 @@ describe('Dream team', () => {
       ]), 'AGLR');
     });
 
+    // BDETV
+
     it.optional('should return sorted sequence', () => {
       assert.equal(createDreamTeam(['Peter', 'Adam', 'Gary', 'Bobby', 'Philip', 'Andrea', 'Evelyn', 'Evelyn', 'Kimberly', 'Denise']), 'AABDEEGKPP');
       assert.equal(createDreamTeam(['Eric', 'Donald', 'Justin', 'Katherine', 'Ethan', 'Charles', 'Frances', 'Kimberly', 'Noah', 'Paul']), 'CDEEFJKKNP');
